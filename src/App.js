@@ -1,25 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import AnimalMatch from './components/AnimalMatch'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
 
-export default App;
+
+const App = () => <AnimalMatch/>
+
+
+
+
+
+
+
+
+
+
+export default App 
+
+// const myList = [
+//   {id:1,name:'A'},{id:2,name:'B'},{id:3,name:'C'},{id:4,name:'D'},{id:5,name:'E'},{id:6,name:'F'},
+// ]
+
+
+  //     // const [shuffle, setRandom] = useState([])
+//     const onShuffleList = () => {
+//       return myList.sort(() => Math.random() - 0.5)
+       
+//     }
+
+//     const  onEmojiclicked = (id) => {
+//       console.log(id)
+//     }
+
+//     return (
+//   <>
+//   {onShuffleList().map((x)=>
+//     <button  onClick={onEmojiclicked(x.id)} key={x.id}>{x.name}</button>
+//   )}  
+//   </>
+//   )
+// }
+

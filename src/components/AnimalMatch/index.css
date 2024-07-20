@@ -1,0 +1,13 @@
+.adj-A{
+    margin-bottom: 124px;
+}
+
+.adj-B{
+    display: flex;
+    flex-direction: row;
+}
+
+.imgg{
+    height: 200px;
+    width: 200px;
+}
